@@ -32,7 +32,7 @@ body {
   margin-left: 50px;
 }
 
-nav>ul {
+nav > ul {
   display: flex;
   gap: 120px;
   padding-left: 100px;
@@ -65,8 +65,11 @@ li {
   margin-left: 100px;
   font-weight: bold;
   font-size: larger;
-  background-color: rgb(231, 180, 52);
+  background-color: rgb(248, 208, 105);
   border-radius: 3px;
+}
+#submit:hover {
+  background-color: darkgoldenrod;
 }
 #second-section {
   margin-top: 50px;
@@ -86,12 +89,10 @@ div.flex {
   }
 }
 .icon {
-  width: 90px;
-  height: 90px;
   background-color: darkgoldenrod;
 }
-div.phrase{
-    width: 900px;
+div.phrase {
+  width: 900px;
 }
 #third-section {
   display: flex;
@@ -128,7 +129,7 @@ div.phrase{
 }
 .block-header {
   display: flex;
-  background-color:  rgb(228, 217, 217);
+  background-color: rgb(228, 217, 217);
   width: 400px;
   height: 60px;
   align-items: center;
@@ -165,6 +166,9 @@ input.btn {
   padding: 10px;
   border-radius: 3px;
   font-size: x-large;
+}
+input.btn:hover {
+  background-color: darkgoldenrod;
 }
 p {
   font-size: large;
